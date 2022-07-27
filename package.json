@@ -1,0 +1,29 @@
+{
+  "name": "grimdankbot",
+  "version": "1.0.0",
+  "description": "Discord Bot to manage Necromunda games",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakuzadave/grimdankbot.git"
+  },
+  "keywords": [
+    "dicord",
+    "bot",
+    "necromunda",
+    "board-games",
+    "games"
+  ],
+  "author": "Dave Carmocan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakuzadave/grimdankbot/issues"
+  },
+  "homepage": "https://github.com/yakuzadave/grimdankbot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
