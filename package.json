@@ -4,7 +4,8 @@
   "description": "Discord Bot to manage Necromunda games",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,12 @@
   },
   "homepage": "https://github.com/yakuzadave/grimdankbot#readme",
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "@discordjs/rest": "^1.0.1",
+    "airtable": "^0.11.4",
+    "axios": "^0.27.2",
+    "d20": "^1.4.1",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "moment": "^2.29.4"
   }
 }
